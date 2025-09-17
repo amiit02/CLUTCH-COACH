@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUTCH&COACH Driving School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CLUTCH&COACH</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-animation" aria-hidden="true">
+            <div class="road"></div>
+            <svg class="car" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="animated sports car">
+                <g fill="none" fill-rule="evenodd">
+                    <!-- Body -->
+                    <path d="M20 54c4-8 10-14 22-18 9-3 26-5 40-5 8 0 12-6 18-9 7-3 16-3 24 0 5 2 9 6 12 10 3 4 6 8 9 9 4 2 7 3 7 7 0 3-1 6-4 6H30c-6 0-10-1-10-6 0-1 0-3 0-4z" fill="#d32f2f"/>
+                    <!-- Roof / Cabin -->
+                    <path d="M74 31c6-5 14-8 22-8h10c6 0 12 2 16 6l7 7H74v-5z" fill="#b71c1c"/>
+                    <!-- Windows -->
+                    <path d="M98 28h10c6 0 11 2 15 6l2 2H92l6-8z" fill="#9ecbff" opacity="0.9"/>
+                    <path d="M84 28h10l-6 8H78l6-8z" fill="#9ecbff" opacity="0.85"/>
+                    <!-- Front light -->
+                    <rect x="160" y="48" width="10" height="5" rx="2.5" fill="#ffd54f"/>
+                    <!-- Rear light -->
+                    <rect x="24" y="48" width="8" height="5" rx="2.5" fill="#ff8a80"/>
+                    <!-- Wheels -->
+                    <g>
+                        <circle cx="60" cy="66" r="10" fill="#1c1c1c"/>
+                        <circle cx="60" cy="66" r="4" fill="#8d8d8d"/>
+                    </g>
+                    <g>
+                        <circle cx="135" cy="66" r="10" fill="#1c1c1c"/>
+                        <circle cx="135" cy="66" r="4" fill="#8d8d8d"/>
+                    </g>
+                    <!-- Shadow -->
+                    <ellipse cx="100" cy="74" rx="55" ry="4" fill="rgba(0,0,0,0.35)"/>
+                </g>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to CLUTCH&COACH Driving School</h1>
+            <p>Learn to drive safely and confidently with our expert instructors.</p>
+            <a href="login.html" class="cta-button">Book a Lesson</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>CLUTCH&COACH is a premier driving school dedicated to providing high-quality driving education. Our certified instructors have years of experience and focus on safe driving practices, road rules, and vehicle handling skills.</p>
+        <p>We cater to beginners, intermediate learners, and those needing refresher courses. Our goal is to make you a responsible and skilled driver.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Beginner Lessons</h3>
+                <p>Start from the basics: understanding controls, basic maneuvers, and road safety.</p>
+                <p>Price: $50/hour</p>
+            </div>
+            <div class="service-item">
+                <h3>Advanced Training</h3>
+                <p>Highway driving, night driving, and defensive techniques.</p>
+                <p>Price: $60/hour</p>
+            </div>
+            <div class="service-item">
+                <h3>License Test Prep</h3>
+                <p>Mock tests and tips to pass your driving exam on the first try.</p>
+                <p>Price: $70/session</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CLUTCH&COACH Driving School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
